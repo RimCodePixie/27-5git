@@ -1,0 +1,96 @@
+body {
+     /* background-image: url(../images/121.png);  */
+    background-size: cover;
+    background-color: #66d3c1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li:hover{
+    cursor: pointer;
+    color:#17b49a ;
+}
+header{
+    color: aliceblue;
+}
+.arsha{
+    float: left;
+    margin: 10px;
+    padding-left: 50px;
+}
+.Header {
+    float: right;
+    /* margin: auto; */
+    height: 100px;
+    display: inline-block;
+    width: fit-content;
+}
+.new{
+    background-color: transparent;
+    border-radius: 40px;
+    border: 3px #17b49a solid;
+    padding: 6px 20px; ;
+}
+section{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
+    gap: 30px
+}
+.section{
+    float: right;
+}
+.new1{
+     clear: both;
+     float: left;
+     vertical-align: bottom;
+}
+.footer {
+    margin: auto;
+    height: 100px;
+    width: 100%;
+    /* background-color: beige; */
+    display: inline-block;
+
+}
+.team{
+    display:flex;
+    clear: both;
+    color: beige;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin: 28px;
+
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+div.about{
+    color: bisque;
+
+}
+
+div {
+    text-align: center;
+    color:blanchedalmond;
+}
